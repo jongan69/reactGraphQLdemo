@@ -9,7 +9,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
   headers: {
       "content-type": "application/json",
-      "x-hasura-admin-secret": "HMRl64GqgvWwOr5AMCE5Z1IuldbXblYfmwWW71qVeo77I9ThuezwFaWRuhTWgIyN",
+      "x-hasura-admin-secret": "SECRET",
     },
 });
 
